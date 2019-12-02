@@ -5,3 +5,4 @@ My ([@gawdn](gawdn.com)) attempts at [Advent of Code 2019](https://adventofcode.
 | Star | Total time |
 | -- | -- |
 | 1 | 24:02 |
+| 2 | |

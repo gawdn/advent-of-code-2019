@@ -6,7 +6,7 @@ def calculate_fuel_required(mass):
 
 
 if __name__ == "__main__":
-    with open("1-2.in", "r") as masses:
+    with open("../1.in", "r") as masses:
         total_fuel = 0
         for mass in masses:
             # Fuel for an individual module
@@ -16,7 +16,7 @@ if __name__ == "__main__":
             # Account for the weight of the fuel
             while fuel_required > 0:
                 fuel_required = calculate_fuel_required(fuel_required)
-                
+
                 # don't add negative amounts
                 if fuel_required > 0:
                     module_fuel += fuel_required
