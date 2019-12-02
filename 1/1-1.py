@@ -6,7 +6,7 @@ def calculate_fuel_required(mass):
 
 
 if __name__ == "__main__":
-    with open("../1.in", "r") as masses:
+    with open("1.in", "r") as masses:
         total_fuel = 0
         for mass in masses:
             total_fuel += calculate_fuel_required(int(mass))
