@@ -35,7 +35,7 @@ def execute_program(program):
 
 
 if __name__ == "__main__":
-    with open("../2.1202.in", "r") as codes_fp:
+    with open("2.1202.in", "r") as codes_fp:
         codes = codes_fp.readline().strip().split(',')
         codes = list(map(int, codes))
 
