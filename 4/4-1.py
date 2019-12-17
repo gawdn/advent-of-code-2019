@@ -18,7 +18,6 @@ def count_possible_password(min_num=108457, max_num=562041):
         has_repeat = False
         is_valid = True
         current_char = ''
-        current_char_count = 0
 
         for i in range(len(possible_password) - 1):
             if int(possible_password[i]) > int(possible_password[i + 1]):
